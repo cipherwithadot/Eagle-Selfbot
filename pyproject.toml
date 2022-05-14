@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "eagleselfbot"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+future = "^0.18.2"
+async-timeout = "^3.0.1"
+charset-normalizer = "^2.0.4"
+colorama = "^0.4.4"
+DateTime = "^4.3"
+datetime3 = "^3.8.0"
+"discord.py" = "^1.7.3"
+msgpack = "^1.0.2"
+pipreqs = "^0.4.10"
+python-dotenv = "^0.19.0"
+TgCrypto = "^1.2.2"
+virtualenv = "^20.7.2"
+virtualenvwrapper-win = "^1.2.6"
+beautifulsoup4 = "^4.9.3"
+bs4 = "^0.0.1"
+soupsieve = "^2.2.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
